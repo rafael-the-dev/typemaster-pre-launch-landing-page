@@ -19,6 +19,13 @@
 }
 
 @media screen and (min-width: 992px) {
+    .hero {
+        background-image: url(../images/shared/pattern-square.svg);
+        background-repeat: no-repeat;
+        background-position: right -100px top;
+        background-size: 200px;
+    }
+
     .hero__content {
         width: 40%;
     }
