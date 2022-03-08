@@ -4,7 +4,7 @@
     font-family: 'Big Shoulders Text', cursive;
     font-family: 'Kumbh Sans', sans-serif;
     font-family: 'Mochiy Pop P One', sans-serif;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Barlow', sans-serif !important;
 }
 
 .px {
