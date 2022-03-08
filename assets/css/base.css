@@ -22,6 +22,10 @@
     padding-right: 5%;
 }
 
+.bg-grey {
+    background-color: var(--grey);
+}
+
 .bg-orange {
     background-color: var(--orange);
 }
