@@ -4,7 +4,6 @@
     background-position: center;
     background-size: cover;
     height: 300px;
-    margin-left: auto;
     width: 95%;
 }
 
@@ -26,6 +25,12 @@
 
     .hero__illustration {
         background-image: url(../images/desktop/image-keyboard.jpg);
-        width: 50%;
+        margin-left: 0;
+        height: 400px;
+        width: 480px;
+    }
+
+    .hero__release-date {
+        margin-left: 3rem;
     }
 }
