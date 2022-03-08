@@ -38,7 +38,20 @@
     color: var(--light-blue);
 }
 
+@media screen and (min-width: 768px) {
+    .pr-md-0 {
+        padding-right: 0;
+    }
+}
 
-@media screen and (min-width: 900px) {
-    
+
+@media screen and (min-width: 992px) {
+    .pl-lg-0 {
+        padding-left: 0;
+    }
+
+    .px--md {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
 }

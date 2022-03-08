@@ -1,9 +1,31 @@
 .hero__illustration {
-    background-image: url(../images/mobile//image-keyboard.jpg);
+    background-image: url(../images/mobile/image-keyboard.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     height: 300px;
     margin-left: auto;
     width: 95%;
+}
+
+@media screen and (min-width: 768px) {
+    .hero__content {
+        width: 50%;
+    }
+
+    .hero__illustration {
+        background-image: url(../images/tablet/image-keyboard.jpg);
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hero__content {
+        width: 40%;
+    }
+
+    .hero__illustration {
+        background-image: url(../images/desktop/image-keyboard.jpg);
+        width: 50%;
+    }
 }
