@@ -26,3 +26,15 @@
 .card__title--rgb::before {
     background-image: url(../images/shared/icon-light.svg);
 }
+
+@media screen and (min-width: 768px) {
+    .cards-container {
+        grid-gap: 0;
+        grid-template-columns: 48% 45%;
+        grid-template-rows: auto;
+    }
+
+    .card__title::before {
+        margin-left: 0;
+    }
+}
