@@ -1,0 +1,28 @@
+.card__title::before {
+    background-color: #F16718;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    content: "";
+    display: block;
+    height: 60px;
+    margin: 0 auto 1.5rem auto;
+    width: 60px;
+}
+
+
+.card__title--compatible::before {
+    background-image: url(../images/shared/icon-compatible.svg);
+}
+
+.card__title--bluetooth::before {
+    background-image: url(../images/shared/icon-bluetooth.svg);
+}
+
+.card__title--battery::before {
+    background-image: url(../images/shared/icon-battery.svg);
+}
+
+.card__title--rgb::before {
+    background-image: url(../images/shared/icon-light.svg);
+}
