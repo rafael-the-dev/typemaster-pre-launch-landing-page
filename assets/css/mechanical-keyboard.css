@@ -30,6 +30,38 @@
     width: 60%;
 }
 
+@media screen and (min-width: 576px) {
+    .mechanical-keyboard {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .mechanical-keyboard__keyboards-container {
+        width: 100%;
+    }
+
+    .mechanical-keyboard__first-keyboard, .mechanical-keyboard__second-keyboard {
+        height: 350px;
+    }
+
+    .mechanical-keyboard__first-keyboard {
+        background-image: url(../images/tablet/image-phone-and-keyboard.jpg);
+    }
+
+    .mechanical-keyboard__first-keyboard::after {
+        border-radius: 1rem;
+    }
+
+    .mechanical-keyboard__second-keyboard {
+        background-image: url(../images/tablet/image-glass-and-keyboard.jpg);
+    }
+
+    .mechanical-keyboard__content {
+        padding: 0;
+    }
+}
+
+
 @media screen and (min-width: 768px) {
     .mechanical-keyboard__title {
         font-size: 2rem !important;
