@@ -1,3 +1,34 @@
+.mechanical-keyboard__keyboards-container {
+    width: 95%;
+    margin-right: auto;
+}
+
+.mechanical-keyboard__first-keyboard, .mechanical-keyboard__second-keyboard {
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+}
+
+.mechanical-keyboard__first-keyboard {
+    background-image: url(../images/mobile/image-phone-and-keyboard.jpg);
+    width: 31%;
+}
+
+.mechanical-keyboard__first-keyboard::after {
+    background-color: #f16718d4;
+    border-radius: .3rem;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.mechanical-keyboard__second-keyboard {
+    background-image: url(../images/mobile/image-glass-and-keyboard.jpg);
+    width: 60%;
+}
 
 @media screen and (min-width: 768px) {
     .mechanical-keyboard__title {
