@@ -31,11 +31,6 @@
 }
 
 @media screen and (min-width: 576px) {
-    .mechanical-keyboard {
-        padding-left: 5%;
-        padding-right: 5%;
-    }
-
     .mechanical-keyboard__keyboards-container {
         width: 100%;
     }
@@ -69,5 +64,37 @@
 
     .mechanical-keyboard__description {
         margin-left: 4rem;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mechanical-keyboard {
+        background-image: url(../images/shared/pattern-square.svg);
+        background-repeat: no-repeat;
+        background-position: left -100px top;
+        background-size: 200px;
+        margin-bottom: 3rem;
+    }
+
+    .mechanical-keyboard__keyboards-container {
+        margin-bottom: 0 !important;
+        width: 75%;
+    }
+
+    .mechanical-keyboard__first-keyboard {
+        background-image: url(../images/desktop/image-phone-and-keyboard.jpg);
+        width: 37%;
+    }
+
+    .mechanical-keyboard__second-keyboard {
+        background-image: url(../images/desktop/image-glass-and-keyboard.jpg);
+    }
+    .mechanical-keyboard__content {
+        margin-top: 0 !important;
+        width: 15%;
+    }
+
+    .mechanical-keyboard__description {
+        margin-left: 0;
     }
 }
